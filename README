@@ -1,1 +1,12 @@
 MUD Reanimator - web interface for cozy telnet game
+
+How to install WebSocket daemon:
+
+    cd websocket/src
+    make
+
+How to run WebSocket daemon:
+    
+    cd websocket/bin
+    ./wsmd
+

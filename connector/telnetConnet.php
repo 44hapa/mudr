@@ -95,7 +95,7 @@ class telnetConnect {
                 socket_set_nonblock($this->socket);
             }
 
-            $this->writeToFile("./cp1251.txt");
+//            $this->writeToFile("./cp1251.txt");
             sleep(1);
             
             $str    = socket_read($this->socket, $this->socLenght);
